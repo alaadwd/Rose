@@ -1,0 +1,58 @@
+.entry {
+
+}
+.plus {
+    font-size: 100px;
+}
+
+/* Modal container */
+.modal {
+    /* display: none; Hide modal by default */
+    position: fixed; /* Position modal relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1; /* Ensure modal appears above other content */
+    overflow: auto; /* Enable scrolling if modal content exceeds viewport height */
+  }
+
+  .form-input {
+    border-bottom: 1px solid red;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Center modal vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 400px; /* Set maximum width for modal */
+  }
+  
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Close button hover effect */
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .displayDrinks {
+    list-style-type: upper-roman;
+  }
+/* 
+  .drinks{
+    border: 1px solid;
+  } */
